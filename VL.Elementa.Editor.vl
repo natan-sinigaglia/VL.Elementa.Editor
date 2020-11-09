@@ -2,7 +2,7 @@
 <Document xmlns:p="property" Id="PteB4SGIz2HLEHnWfsTNYi" LanguageVersion="2020.3.0.71" Version="0.128">
   <NugetDependency Id="DWHBR0yKpKpLovCZjpRCvi" Location="VL.CoreLib" Version="2020.3.0-0071-g13d4ae0a7d" />
   <Patch Id="JuVa7E7lhYwLnM2ef56WNK">
-    <Canvas Id="CJIv5mf1hOYM9876oFNSeL" DefaultCategory="Elementa.Editor" CanvasType="FullCategory">
+    <Canvas Id="CJIv5mf1hOYM9876oFNSeL" DefaultCategory="VL.Elementa.Editor" CanvasType="FullCategory">
       <!--
 
     ************************ Inspector ************************
@@ -41,7 +41,7 @@
               <Pin Id="K5BEjCnblz6PjlXwt7CIIJ" Name="Render Time" Kind="OutputPin" />
             </Node>
             <Node Bounds="113,187,98,19" Id="OkrW35hYEyoN3EVYiO4gKe">
-              <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+              <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
               </p:NodeReference>
@@ -265,7 +265,7 @@
                   <Pin Id="JOfXeQvyiaPP4fccikch52" Name="Success" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="206,326,98,19" Id="LXF85tOv0FzNJoQ4yqgr6e">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="PropertyInspector" />
                   </p:NodeReference>
@@ -540,6 +540,8 @@
               <Pin Id="Bmf9B4xlWRjOVT1aCXLows" Name="Force" Kind="InputPin" />
               <Pin Id="SCxj1sSOh5HK9e6F3pCKP8" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="UwlgFsTHysmQEdX3G2DPA8" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="AzPDyTkfp4nONcoFx02Kaz" Bounds="422,119" Alignment="Top" />
+              <ControlPoint Id="HHUD8Mt6xvjQWI716mIJGW" Bounds="422,211" Alignment="Bottom" />
               <Patch Id="UyesgyyJD8UMYDMSVM1eA5" ManuallySortedPins="true">
                 <Patch Id="I6qnPHoQsl7M3GDTrZhZ7E" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="GMAlP4zoffYL8A5OqKn8Ky" Name="Then" ManuallySortedPins="true" />
@@ -553,7 +555,7 @@
                   <Pin Id="KjeNdTmNx6dP9nDc5LPdVK" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="420,177,121,19" Id="RVTDtQupWrxOjZN2FoobmQ">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FilterAndSortProperties" />
                   </p:NodeReference>
@@ -561,8 +563,6 @@
                   <Pin Id="SSGVsgDuEcrLQEwZc9Fyfm" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="AzPDyTkfp4nONcoFx02Kaz" Bounds="422,119" Alignment="Top" />
-              <ControlPoint Id="HHUD8Mt6xvjQWI716mIJGW" Bounds="422,211" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="RnNo23ORBqjOMDQVoLpDS1" Bounds="-15,846" />
             <Node Bounds="-18,875,29,19" Id="OygpuGcPA80NOcBk5rBPFw">
@@ -924,7 +924,7 @@
           <ControlPoint Id="OvwZduGAI45OYLF5sk2qjV" Bounds="1585,137" />
           <Link Id="RivIPDGt0VFMl0i9u05uLB" Ids="TefIJoirSMTPVm9UDuFkUc,OvwZduGAI45OYLF5sk2qjV" IsHidden="true" />
           <Node Bounds="1581,1177,107,74" Id="H32OtdQWHRlLv5uczjqWqp">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -953,7 +953,7 @@
           <Link Id="PoWNi4gkzXMMk5n1CXEJEA" Ids="CZTHl92SVlSLesYhQCfxDx,Lh3qQtR1k5gPXqJf1bjOpf" IsHidden="true" />
           <Link Id="P8G3fGoRKCyN4wQQykLIhu" Ids="CMQ5znf3k6aPxP3OfK39r5,CZTHl92SVlSLesYhQCfxDx" />
           <Node Bounds="1580,1278,106,74" Id="Bh83mSN7iQtMatErBhgoS3">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -987,7 +987,7 @@
           <Link Id="HAy5J3K6rQPPS2dPCNRF6y" Ids="O1nfQSnFupgO6BZ6j6zd0U,Arhu2KP7fF7Ln4OerwmNLu" IsHidden="true" />
           <Link Id="Gf6yrfwfSyBNNTXo1iUwCc" Ids="C5Tk8ydVfL4Lw2IFpTQGTd,O1nfQSnFupgO6BZ6j6zd0U" />
           <Node Bounds="1580,1474,133,90" Id="BvmpOuzORhINlNQO87XcLI">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1020,7 +1020,7 @@
           <Link Id="EbaiTbqrgM0OgdkeQkOk4O" Ids="Fx2OtEHb16RMpiWfruciWn,AkooeCsykeEM6oplOkKUgs" IsHidden="true" />
           <Link Id="UwjXbOqL24RQJCtvVOO0QU" Ids="B9DahY9FHNkL4846WuEEuC,JFyErZ1gPhhMDgsDHip9wK" IsHidden="true" />
           <Node Bounds="1580,1375,98,75" Id="EdDqLc09ZJaMnGrSvv68uK">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1050,7 +1050,7 @@
           <Link Id="R7gVWhkaC9nLK2HDcMFyLk" Ids="Mc732k5TXvLOeXgV9DRGjG,CidU0U3aAZWPZtyjECoYN6" />
           <Link Id="OdMSByaMkOUM5PwV5JO1O9" Ids="EoK6WY87359MIx61kqdGoV,LXoHC8RXTAdN13SpAWWKQM" />
           <Node Bounds="1581,166,101,74" Id="AJJuGuUB3KEO9z4mW6b962">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1076,7 +1076,7 @@
             </Patch>
           </Node>
           <Node Bounds="1581,361,94,74" Id="AVCQZ4t491nMdVN23WKWdH">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1102,7 +1102,7 @@
             </Patch>
           </Node>
           <Node Bounds="1581,553,96,74" Id="UV4IblONJ8EOPad0tKKHZV">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1128,7 +1128,7 @@
             </Patch>
           </Node>
           <Node Bounds="1581,668,97,74" Id="JzxT1EMZ5hmOqAUIBPdcIO">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1168,7 +1168,7 @@
           <Link Id="CZ9FqUoV3toM6VbtWLSjA3" Ids="V6GHou1p4CjM32Vp1z7SFE,PwiEIgiBS5XLdhlU8zBjSK" />
           <Link Id="JT5Xjp7EbE6MsyHc01wUJ0" Ids="OvwZduGAI45OYLF5sk2qjV,L8BBCL1RQXGLudYEa8eUkz" />
           <Node Bounds="1581,267,102,74" Id="NxAyrP28q6yM4kaUAEBXQF">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1199,7 +1199,7 @@
           <Link Id="AvZo5B0aLGVPa25WSq7w4t" Ids="Sk4U6BDiO8ALCg8DVIrFkr,O7orLSklsfDMFQzgJe9wTT" />
           <Link Id="C5UGWMBun6CLcPO1hsQTsq" Ids="HPvWZzN62fHPNcmRVdWRJu,RCggrHaKEIZPACAuxjc7pJ" />
           <Node Bounds="1581,772,109,74" Id="JRu7wji81Q2OVxLrZTQQeP">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1229,7 +1229,7 @@
           <Link Id="FkdzhSKy8wiM7LVmL6sH6w" Ids="HCU1wcfSXS3P25hritotWm,QekXRr5fakoOgEP4ZYRyvW" />
           <Link Id="LmUEEQoFOsUNKJNzRo4Umd" Ids="FF67q28VVGqOSYL6Y7QKSM,AcusQtetgH4NQilIwWih5o" />
           <Node Bounds="1580,1072,121,74" Id="AXpEk7qiSPyPwwpk851HgY">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1259,7 +1259,7 @@
           <Link Id="RQBGPv6UR6dOHOegQZxUo5" Ids="Ulil6zmhRQxPbBpoaoiXR2,FPBghe5x8sgLCEygZogqTF" />
           <Link Id="RV8pEfqgv20LYbIgT3hJxI" Ids="OogOQnoNjnLPThV2o5Ll4M,R9eE0uMxUWpOZepwaSWyD0" />
           <Node Bounds="1580,869,109,74" Id="H8d7vP2Yz3lQE1jjKGki9k">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1289,7 +1289,7 @@
           <Link Id="HCOuX55CkW9PEn0ugul2bj" Ids="Ni6ktSgMB4VPfkxfxiwWAa,Qgl4LkmH1Y7M1eOPgWJWel" />
           <Link Id="GrivPXZrTSDND1lt7bSOve" Ids="QFWqKM3YGzjNUIjYDgnCl6,Au333ke497jQWRap7a7ODV" />
           <Node Bounds="1586,970,109,74" Id="II3OSaeFx3yMrbR1AcFRg2">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1322,7 +1322,7 @@
           <Link Id="B04mE5kp8OeO9SZt7Dz5Iu" Ids="JNA4YSFeZLWOGTWrCx3q0Q,ECdi0u1cAfXNuWieVQbXHb" IsHidden="true" />
           <Link Id="INujoGOuMcaNhc7RzbLlPm" Ids="CLFUHHayx8IQNMHFYoSMIy,B9DahY9FHNkL4846WuEEuC" />
           <Node Bounds="1880,1182,140,77" Id="O0JTY2qlqSOLqHXbyfkusu">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1348,7 +1348,7 @@
             </Patch>
           </Node>
           <Node Bounds="1881,166,124,74" Id="LlJHibvGju0OSbPUGuisu1">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1380,7 +1380,7 @@
           <Link Id="Qtp2vkBZCsJM3GDW7aMRqn" Ids="PxPpHqEuXEhPlXNATuvqTF,ThdsAgtVaTkPoszCUlHGrX" />
           <Link Id="ARjX8fVGNuqN0hrMaqYLu8" Ids="PlpqkyBfioyLX0wywjLqUa,OINwwbTSVbsQHf0Moijs6r" />
           <Node Bounds="1881,271,124,74" Id="Q4HZalMcn3UNbAOygusqtJ">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1409,7 +1409,7 @@
           <Link Id="Bffvyg7qyhoOV2Q1G1kD3K" Ids="Sk1Vbd6aUfAMb4aOJ7icaC,IIldLSqXHymQbM4187oPhL" IsHidden="true" />
           <Link Id="OCc9RhwIaCGQWYraN2MlSk" Ids="K5K8sBRVRb4LQgMxRO89e5,Sk1Vbd6aUfAMb4aOJ7icaC" />
           <Node Bounds="1881,376,124,74" Id="BWWxmpQsih8PDQNX55ymlA">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1438,7 +1438,7 @@
           <Link Id="L6sN4EjRvkxLwBg2VBLn0D" Ids="AHY2TVFlbjfPE9EKkad3AQ,HmecmOgJL4OP9ILkeUnfuw" IsHidden="true" />
           <Link Id="CQLyS0EHvzpOlbf5dA1OUA" Ids="SUqzoYaNoYfO0jL0Y1UJEi,AHY2TVFlbjfPE9EKkad3AQ" />
           <Node Bounds="1881,481,124,74" Id="QvCJk2BS6ZOLwphwXdSpjK">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1467,7 +1467,7 @@
           <Link Id="LGpWqbo5cpSNTyBlp0bl1T" Ids="Gc9heWbv5tFNqeOgSoPmj7,IizSffdvMksLuOPmRD7B5j" IsHidden="true" />
           <Link Id="MsSPcuj0yqHQdUk2zu6uWm" Ids="Ql0JoyAp0ScNwVCNRgTZxW,Gc9heWbv5tFNqeOgSoPmj7" />
           <Node Bounds="1881,586,124,74" Id="QtZ5mB5FymAPx14jBgw8am">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1496,7 +1496,7 @@
           <Link Id="I5LvGaH3EsZNogeklu0EwM" Ids="LbMrCK4Np9COGlFjYTwbrI,SGGNDxzKgsiNIWhL0esg8S" IsHidden="true" />
           <Link Id="AoFivRWycvFLznpuKZk7w7" Ids="LKXyLJLb4IELootdM4Epq2,LbMrCK4Np9COGlFjYTwbrI" />
           <Node Bounds="1881,691,124,74" Id="FD7TgNO2Ft3N8VJo4ei7eG">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1525,7 +1525,7 @@
           <Link Id="I7k4Wht2xAGMy0HTxCa0Z2" Ids="RHF6VPW1KU0NbupoZMm8x4,DVqWGYkhdyHMYTHsxS0SmB" IsHidden="true" />
           <Link Id="NtjZRjRiXztPtSBcVNqW6i" Ids="AKUoVJrIECnM2ufvbmtunL,RHF6VPW1KU0NbupoZMm8x4" />
           <Node Bounds="1881,796,124,74" Id="R6nebhHqk1mOViprSJQpO7">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1554,7 +1554,7 @@
           <Link Id="QYlu1bi1mJmNOHUFZjkDbb" Ids="FRqhR4AKIXiMsVEKW8Wx20,IgMAt8k099zLzxZnbL8O9H" IsHidden="true" />
           <Link Id="ODRgOeVfuKFOuNhHrUuon9" Ids="KReMn2jFePeMkOqsSd3fC3,FRqhR4AKIXiMsVEKW8Wx20" />
           <Node Bounds="1881,901,124,74" Id="LQetlmT60Q4NRl5zU50uwX">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1583,7 +1583,7 @@
           <Link Id="B7teY8ltY3pQAX4ot6A3oX" Ids="BcDpUKsATxcO91eUs3fBeS,MPvhY12Oqw3QQrhRNSZwsU" IsHidden="true" />
           <Link Id="FnErAPZjOD3PazNUB0CZnt" Ids="IKowa6rP4goN45LLbERiPW,BcDpUKsATxcO91eUs3fBeS" />
           <Node Bounds="1881,1006,124,74" Id="DrQZMX8B6ZAPXbIeViVPxa">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1621,7 +1621,7 @@
           <Link Id="A3mTPsR82a4LDmsOezZEPZ" Ids="QViuMT5dLPxOVeLt9cshfk,FhOvQyie5YfPrM2GeDC2Ia" />
           <Link Id="JzXLF3sn9YVOxOua3YdZfO" Ids="Kx9uEaawtwTP1WSAVbyN6U,F1iWpwsCeDjNq9G4a2wtLe" />
           <Node Bounds="1881,1389,135,77" Id="NwUPb1wX4ScLGJV6MGOA06">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1650,7 +1650,7 @@
           <Link Id="VwDY2c1JxvSMrkANKkCvO2" Ids="PvoQW5Adg28LMAsjy6S8LM,SC9Izv25UOXQNmxnWvZ46q" IsHidden="true" />
           <Link Id="PvWXztS1FEhNGA2WGhgEcv" Ids="V4mijX0vsg0P2e5TVaK5Pv,PvoQW5Adg28LMAsjy6S8LM" />
           <Node Bounds="1881,1284,135,77" Id="QZ12EMNsMp7LnLJYPRoilJ">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1681,7 +1681,7 @@
           <Link Id="KWphK5sHGwhNaraNINZueJ" Ids="CR5uGCPOkUYP9sdIPr01xX,BllkqQNOYABLpZ3klBtCHB" />
           <Link Id="GBjARo6tPzzLGDBWLa1qjz" Ids="KfgMUV718MGL4TFPKaBwWc,DNx3BlVOX9jPga7cmg5LLD" />
           <Node Bounds="1881,1494,135,77" Id="QqorjNoMvDMOphAgEF1WkC">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -1717,7 +1717,7 @@
           <Link Id="LMGLo3kpWFaMljY93xWtF4" Ids="U0yRBZyyChQPtqoQJrqe72,JZvPKU2teibQafVkeKacvo" />
           <Link Id="DrRbnSPWjzgO82Npn3LEyH" Ids="IQuYE1CK4qMNwwUbjdXJhH,NlpfOeoAHWVLaUUacEMbtJ" />
           <Node Bounds="1581,456,121,74" Id="UvVpVpQnvl1OMcncFa1tSY">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
@@ -1746,7 +1746,7 @@
           <Link Id="Kv3A0k7LPNHPgg2a3iYO8x" Ids="QJTOF4XJiaOOzRC35nupPt,O93WmtPOtZpMzUFJpCClo4" IsHidden="true" />
           <Link Id="Dwqrzk6waEHMdlEXYFaicG" Ids="IIVcDtr2XcHMJr1huicuCk,QJTOF4XJiaOOzRC35nupPt" />
           <Node Bounds="1881,1096,124,74" Id="CWXe21HztcNLf34sm4I4Fl">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterPropertyInspector" />
             </p:NodeReference>
@@ -2009,7 +2009,7 @@
                 <Patch Id="HPaeePyOFYPMKIdcSbXyi7" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="C9G6axVEhVjPY31MVRtrng" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="156,462,98,19" Id="E4irJzgw3vvOrrvnvEaEfC">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="PropertyInspector" />
                   </p:NodeReference>
@@ -2515,6 +2515,9 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="Fx9p9jtYeqvLa8ZpBdTZjT" Name="Break" Kind="OutputPin" />
+              <ControlPoint Id="NRNZErTjiKWNoe7AfL60q1" Bounds="619,643" Alignment="Bottom" />
+              <ControlPoint Id="KL9HbiNQ66INANNF3lKcZ5" Bounds="636,394" Alignment="Top" />
+              <ControlPoint Id="Hc76u6FKVThPk5B3pKpC8j" Bounds="723,643" Alignment="Bottom" />
               <Patch Id="HdYsGLafFF9NpjtdVae22N" ManuallySortedPins="true">
                 <Patch Id="GTxpJ6iLk7mQA3TjyKg9EN" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="D7cMC4NjtikNkVt0EIpSlV" Name="Update" ManuallySortedPins="true">
@@ -2522,7 +2525,7 @@
                 </Patch>
                 <Patch Id="FF0hl1aI6xJNwD02yc1zYJ" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="630,422,98,19" Id="O5x9SuoTR9cMKWYXB2M73o">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
                   </p:NodeReference>
@@ -2592,9 +2595,6 @@
                   <Pin Id="Oz8Iqg1l142QUuHWmJ2kF7" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="NRNZErTjiKWNoe7AfL60q1" Bounds="619,643" Alignment="Bottom" />
-              <ControlPoint Id="KL9HbiNQ66INANNF3lKcZ5" Bounds="636,394" Alignment="Top" />
-              <ControlPoint Id="Hc76u6FKVThPk5B3pKpC8j" Bounds="723,643" Alignment="Bottom" />
             </Node>
             <Node Bounds="721,201,48,19" Id="NdWiome6wRULuzTS0TPRCZ">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -3876,7 +3876,7 @@
                   <Pin Id="AaVYAdVxqvOMGetKMysJoH" Name="Success" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="116,474,98,19" Id="FFtTA6w3xUmLEVjlkxoOxT">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="AdaptiveMonitor" />
                   </p:NodeReference>
@@ -4071,7 +4071,7 @@
                   <Pin Id="H22srwuWT6DOyYX7OkPqia" Name="Success" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="271,435,98,19" Id="CMaUWaBmUDbOu2UoiwXbvq">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="AdaptiveMonitor" />
                   </p:NodeReference>
@@ -4574,12 +4574,14 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="AeheSZXQBcqOKeIgm20HDY" Name="Break" Kind="OutputPin" />
+              <ControlPoint Id="QOgDCxw0CQgN0OChZZ2ZzQ" Bounds="202,303" Alignment="Bottom" />
+              <ControlPoint Id="RIuw5H2GMvoMeStndC2u7H" Bounds="280,199" Alignment="Top" />
               <Patch Id="P2Wbarbfc70Oo1jTi7Nx27" ManuallySortedPins="true">
                 <Patch Id="Qo5M3Ryibl2P6F6tF6nyOx" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="CXkHLjBbbwgOxIbCuXo8v8" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="RuHbX3Y3fjuP5T0bAZviy5" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="202,237,98,19" Id="Ld54HtZdYdYLtwaNS7cQHH">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="AdaptiveMonitor" />
                   </p:NodeReference>
@@ -4590,8 +4592,6 @@
                   <Pin Id="RUwVUTAu2sTNBvoqqO9OoF" Name="UIElement" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="QOgDCxw0CQgN0OChZZ2ZzQ" Bounds="202,303" Alignment="Bottom" />
-              <ControlPoint Id="RIuw5H2GMvoMeStndC2u7H" Bounds="280,199" Alignment="Top" />
             </Node>
             <Node Bounds="303,80,48,19" Id="MsaB4rdUP8uLvSs1FUMQZl">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -6174,6 +6174,9 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="BjKiBurmFRZQPxsdfBcd2a" Name="Break" Kind="OutputPin" />
+              <ControlPoint Id="BsjrmTYBoKqLyKOed3uacK" Bounds="619,643" Alignment="Bottom" />
+              <ControlPoint Id="Ez3NU4WfBvANTx1Aoycu0P" Bounds="636,394" Alignment="Top" />
+              <ControlPoint Id="VlBneCqbHnuQPwR0o6BMI3" Bounds="723,643" Alignment="Bottom" />
               <Patch Id="DsUeT0phugCOvGrc7Lm0dw" ManuallySortedPins="true">
                 <Patch Id="LWVuc497RtiLZIGYsKAkrm" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="JrepuMGypiWPEYEYSnGMwj" Name="Update" ManuallySortedPins="true">
@@ -6181,7 +6184,7 @@
                 </Patch>
                 <Patch Id="VxdgmGbwmsYM8NGziiot87" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="630,422,98,19" Id="FXt2dXqnyDAOHlEKM64QY9">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
                   </p:NodeReference>
@@ -6251,9 +6254,6 @@
                   <Pin Id="Pjt1b5gPB0BMXP3n1mJIUn" Name="Output" Kind="StateOutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="BsjrmTYBoKqLyKOed3uacK" Bounds="619,643" Alignment="Bottom" />
-              <ControlPoint Id="Ez3NU4WfBvANTx1Aoycu0P" Bounds="636,394" Alignment="Top" />
-              <ControlPoint Id="VlBneCqbHnuQPwR0o6BMI3" Bounds="723,643" Alignment="Bottom" />
             </Node>
             <Node Bounds="721,201,48,19" Id="QXkD6xtyD2EMst3rvGAdsE">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -6750,7 +6750,7 @@
               <ControlPoint Id="L2cEBr1NaU5LR4DLjk4nP7" Bounds="544,27" />
               <ControlPoint Id="JdDt3hT6zpKLf3GH9AG4kv" Bounds="731,18" />
               <Node Bounds="729,101,84,19" Id="M3QaCow5CSpNG41lOvdYcY">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.GraphViewer" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.GraphViewer" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="CreateChildren" />
                 </p:NodeReference>
@@ -7504,7 +7504,7 @@
                     <Patch Id="CPlIYisrPQLPQYpxsSl865" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="CMf9XUTo4wXO5Lwxc6y414" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="365,575,136,19" Id="RVouAHO3GH2Pd69GuhiT1v">
-                      <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="AdaptivePropertyInspector" />
                       </p:NodeReference>
@@ -7620,7 +7620,7 @@
                           <Pin Id="I6SpfhpPmamPPfjRMvit2Y" Name="Output" Kind="StateOutputPin" />
                         </Node>
                         <Node Bounds="964,661,67,19" Id="KyZYDYxlP7VNch4u2vTpgE">
-                          <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                          <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="PathEscape" />
                           </p:NodeReference>
@@ -7630,7 +7630,7 @@
                       </Patch>
                     </Node>
                     <Node Bounds="769,763,146,19" Id="F4OqztzOhQIMwzlU4fBwn8">
-                      <p:NodeReference LastCategoryFullName="Elementa.Editor.Parameter" LastSymbolSource="Elementa.Editor.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.Parameter" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ParameterNotificationSender" />
                       </p:NodeReference>
@@ -7694,11 +7694,13 @@
                   <Pin Id="TNGnnpBO7bVNSGxAifQLMM" Name="Force" Kind="InputPin" />
                   <Pin Id="GOT5xWObQtbMZiBRfxQVe9" Name="Dispose Cached Outputs" Kind="InputPin" />
                   <Pin Id="ATwrkVDhgf6Nus95hNsuX9" Name="Has Changed" Kind="OutputPin" />
+                  <ControlPoint Id="QY0sGZxISHjMoJiwlFvUWb" Bounds="491,395" Alignment="Bottom" />
+                  <ControlPoint Id="LFPLl2E331OQRaBtbSIzc7" Bounds="491,313" Alignment="Top" />
                   <Patch Id="QSbsoPrbXtTOZ6EWTg9JD2" ManuallySortedPins="true">
                     <Patch Id="LaIhllCv9SqPFRVHKYPxkA" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="R4DNchbO6PWPQkt1rENlIv" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="489,362,121,19" Id="GFH8VOCuc4QN9QCwovsQKO">
-                      <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="FilterAndSortProperties" />
                       </p:NodeReference>
@@ -7715,8 +7717,6 @@
                       <Pin Id="LNshviLT5JhMoJnHFV6MZH" Name="Properties" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="QY0sGZxISHjMoJiwlFvUWb" Bounds="491,395" Alignment="Bottom" />
-                  <ControlPoint Id="LFPLl2E331OQRaBtbSIzc7" Bounds="491,313" Alignment="Top" />
                 </Node>
                 <Patch Id="VzsqDig9CTUM4Ll3p08Sxd" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="AXfrFAdRP1wNQnMYX80d80" Name="Then" ManuallySortedPins="true" />
@@ -9400,7 +9400,7 @@
                   <Patch Id="TDAdsGmMeAKO9Dq9WD6Zyc" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="EqyRx6iSMxnNsOpgGIz9zW" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="312,123,107,19" Id="LMeiBfWHiubQCexbwNfIBv">
-                    <p:NodeReference LastCategoryFullName="Elementa.Editor.Parameter" LastSymbolSource="Elementa.Editor.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.Parameter" LastSymbolSource="VL.Elementa.Editor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="GetObjectProperties" />
                     </p:NodeReference>
@@ -10137,11 +10137,15 @@
               <Pin Id="NC59ZwiGelwLiYTwgiwKmk" Name="Force" Kind="InputPin" />
               <Pin Id="K8ZtO78AkeTOrwZBp0ioAM" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="MtuGl6002X7Ov6ZlsSTY6u" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="FjZ7JQ7lfGOQJUnV7KJG5j" Bounds="488,236" Alignment="Top" />
+              <ControlPoint Id="Af6LnK6M6p2NWgKN2MLWaV" Bounds="358,310" Alignment="Bottom" />
+              <ControlPoint Id="Hj4eQpepGPZOqrC6jXDp1c" Bounds="419,310" Alignment="Bottom" />
+              <ControlPoint Id="IjH2JC2HWgMNvDkkIbjQXH" Bounds="490,310" Alignment="Bottom" />
               <Patch Id="GkzDsxzzjgEPYkTve3Txsp" ManuallySortedPins="true">
                 <Patch Id="KJ6voAfO8y0LTFS47OVE7b" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="CcWTALTmcXmL2ezKUwJmrM" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="352,257,140,19" Id="Qx3gjdpZU6CM62Eb2Gi7wO">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetPathFromRootReference" />
                   </p:NodeReference>
@@ -10152,10 +10156,6 @@
                   <Pin Id="GMIYGLd8IxyO2MJQ8edwj5" Name="Type" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="FjZ7JQ7lfGOQJUnV7KJG5j" Bounds="488,236" Alignment="Top" />
-              <ControlPoint Id="Af6LnK6M6p2NWgKN2MLWaV" Bounds="358,310" Alignment="Bottom" />
-              <ControlPoint Id="Hj4eQpepGPZOqrC6jXDp1c" Bounds="419,310" Alignment="Bottom" />
-              <ControlPoint Id="IjH2JC2HWgMNvDkkIbjQXH" Bounds="490,310" Alignment="Bottom" />
             </Node>
             <Node Bounds="354,374,167,124" Id="AObnFxqnTcmPK0p4drXbwg">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
@@ -10164,11 +10164,15 @@
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
               <Pin Id="PXnIkgWGRPsMEvn6bc7IAL" Name="Condition" Kind="InputPin" />
+              <ControlPoint Id="OD6lyh1q4SrPF4qrUWKE4H" Bounds="465,491" Alignment="Bottom" />
+              <ControlPoint Id="EDQRoJiX5OzPIMswr59lZt" Bounds="457,381" Alignment="Top" />
+              <ControlPoint Id="RRDnqdczFTXLblHeTyOafx" Bounds="369,491" Alignment="Bottom" />
+              <ControlPoint Id="NBoaxNy07mLQKhxLEPTLoy" Bounds="369,381" Alignment="Top" />
               <Patch Id="DcoIAongrh1M0QV4rBaoqK" ManuallySortedPins="true">
                 <Patch Id="Ibsj5h8bupdOVXzWL8onnp" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="Q33p2s8yHnJPrMJAFOLveT" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="366,436,143,19" Id="RkWvQM2mJ1aPSWoucnMWe5">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="RetrieveLiveObjectFromPath" />
                   </p:NodeReference>
@@ -10178,10 +10182,6 @@
                   <Pin Id="LgU5A78hn9GM1di8Zs0pLL" Name="Live Object" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="OD6lyh1q4SrPF4qrUWKE4H" Bounds="465,491" Alignment="Bottom" />
-              <ControlPoint Id="EDQRoJiX5OzPIMswr59lZt" Bounds="457,381" Alignment="Top" />
-              <ControlPoint Id="RRDnqdczFTXLblHeTyOafx" Bounds="369,491" Alignment="Bottom" />
-              <ControlPoint Id="NBoaxNy07mLQKhxLEPTLoy" Bounds="369,381" Alignment="Top" />
             </Node>
             <ControlPoint Id="P93V01QLfiLOSh8BwhiB22" Bounds="353,178" />
             <ControlPoint Id="FwTMnqmtWF6Oquhh2bjyEO" Bounds="233,391" />
@@ -10374,7 +10374,7 @@
                     <Patch Id="NuVblD0ezcKMcn71WPNofQ" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="UQFeiIFvUfgMZ0PUEUV44m" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="365,560,129,19" Id="RbCwV5rqC9BPeWx3f2W4UK">
-                      <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="AdaptivePropertyInspector" />
                       </p:NodeReference>
@@ -10505,11 +10505,13 @@
                   <Pin Id="HwOy2iHCzcNPvJ63ZzhLVY" Name="Force" Kind="InputPin" />
                   <Pin Id="MdoK5iANVWFO2CN6Nly1dC" Name="Dispose Cached Outputs" Kind="InputPin" />
                   <Pin Id="DpHrWv8LNOgNGIAdSlOEZe" Name="Has Changed" Kind="OutputPin" />
+                  <ControlPoint Id="NYjhpWojkWAMCjbuR9yyHg" Bounds="491,401" Alignment="Bottom" />
+                  <ControlPoint Id="Gd6ek5WJBRtOmVJ7SnSOaC" Bounds="491,322" Alignment="Top" />
                   <Patch Id="O4DjUlqY1boQIkZAWAKPKK" ManuallySortedPins="true">
                     <Patch Id="QJAAxjXHDyKMFgkftJ1WIP" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="NccpScW9aDpOMeZUl6dCEa" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="489,369,121,19" Id="BxfZ8lPjmtQMrY5bsYWr1V">
-                      <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="FilterAndSortProperties" />
                       </p:NodeReference>
@@ -10526,8 +10528,6 @@
                       <Pin Id="DARHhKFD30jMs2sInpLw7P" Name="Properties" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="NYjhpWojkWAMCjbuR9yyHg" Bounds="491,401" Alignment="Bottom" />
-                  <ControlPoint Id="Gd6ek5WJBRtOmVJ7SnSOaC" Bounds="491,322" Alignment="Top" />
                 </Node>
                 <Patch Id="DaD2ZmBCudEMwTMuz04mzP" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="KKXIFzRicUiOnspeZlrSOd" Name="Then" ManuallySortedPins="true" />
@@ -11828,7 +11828,7 @@
                   <Pin Id="RUL8OOvh40iP0A2KyCfLXs" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="114,331,129,19" Id="GmaY1AuMl1dLsF3FetOcrp">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="AdaptivePropertyInspector" />
                   </p:NodeReference>
@@ -11895,6 +11895,8 @@
               <Pin Id="BuECpNo6WrzNYinFJuAcm5" Name="Force" Kind="InputPin" />
               <Pin Id="UKtrRJAmVe5PEhTpqCkp7Q" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="UAntb64NPUUNo7s6LKKyWi" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="JSan9kAvFzOOl9GkDgf3Bu" Bounds="329,130" Alignment="Top" />
+              <ControlPoint Id="AKdnk3OusjULfDmGXaTSrz" Bounds="329,222" Alignment="Bottom" />
               <Patch Id="Ow4gdPld6XKOYRmHLz7hrw" ManuallySortedPins="true">
                 <Patch Id="HPvEPRvp66QMMClIfPk2Qo" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="H4hqvhi5r4bMZ8gB9QxkIQ" Name="Then" ManuallySortedPins="true" />
@@ -11908,7 +11910,7 @@
                   <Pin Id="EMO2xs1JsT2O8txX1qfBby" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="327,188,121,19" Id="Qsk54H345xxOVvrWi5IYav">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FilterAndSortProperties" />
                   </p:NodeReference>
@@ -11916,8 +11918,6 @@
                   <Pin Id="DSYTRFl1sLlOWy5yCAoW8M" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="JSan9kAvFzOOl9GkDgf3Bu" Bounds="329,130" Alignment="Top" />
-              <ControlPoint Id="AKdnk3OusjULfDmGXaTSrz" Bounds="329,222" Alignment="Bottom" />
             </Node>
             <Node Bounds="113,1031,69,19" Id="SPECJuvM9VvNoEe6LDSKjL">
               <p:NodeReference LastCategoryFullName="Elementa.Core.Layout" LastSymbolSource="Elementa.Core.vl">
@@ -12055,6 +12055,9 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="KIPsuBXxNHZNDUp35jOtZw" Name="Break" Kind="OutputPin" />
+              <ControlPoint Id="VnTbFCqc3I6MwCoX294IFX" Bounds="619,643" Alignment="Bottom" />
+              <ControlPoint Id="Lw6nxQ5TTJROLlMir1wkXD" Bounds="636,394" Alignment="Top" />
+              <ControlPoint Id="L2yQ0OYG2s1MeAWzorphUg" Bounds="723,643" Alignment="Bottom" />
               <Patch Id="LbqDZNPEXQYL0yvMbUsZmG" ManuallySortedPins="true">
                 <Patch Id="NKwKgbQvhS6NzIjBDTkAE5" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="UdOKedFMahLP4IKiysQrY4" Name="Update" ManuallySortedPins="true">
@@ -12062,7 +12065,7 @@
                 </Patch>
                 <Patch Id="JEEOpTy3D9pPfbBo02PFdS" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="630,422,98,19" Id="RoJt8PVSS0AMCAyZpt57ht">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="AdaptivePropertyInspector" />
                   </p:NodeReference>
@@ -12133,9 +12136,6 @@
                   <Pin Id="MMysnLS1M67OnGZWPRUryP" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="VnTbFCqc3I6MwCoX294IFX" Bounds="619,643" Alignment="Bottom" />
-              <ControlPoint Id="Lw6nxQ5TTJROLlMir1wkXD" Bounds="636,394" Alignment="Top" />
-              <ControlPoint Id="L2yQ0OYG2s1MeAWzorphUg" Bounds="723,643" Alignment="Bottom" />
             </Node>
             <Node Bounds="718,195,48,19" Id="MFnbXosCAeUPa5fuOkJlT3">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -12402,7 +12402,7 @@
                   <Pin Id="IWbG3ec7bEAMPJ6xZAHX0h" Name="Success" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="630,422,98,19" Id="DN7GwU2O9HxOD3lhqUJKyA">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="AdaptivePropertyInspector" />
                   </p:NodeReference>
@@ -12766,11 +12766,13 @@
               <Pin Id="BukmQwSukMeMrUD2TvmXa4" Name="Force" Kind="InputPin" />
               <Pin Id="EakipPaQDPdNAvjh4Xrsng" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="V5jAMFdwdt5NzdoWeJ9N7Y" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="N8VP0zGPxjGMdNR4JzQ77l" Bounds="1433,566" Alignment="Top" />
+              <ControlPoint Id="Dd2csGboBjaQMwC5KbFbgC" Bounds="1435,664" Alignment="Bottom" />
               <Patch Id="MFaFrXuns8FL8NhaMGB0UO" ManuallySortedPins="true">
                 <Patch Id="SZhJPrGJAaBQVb26334O6Y" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="RDcVfB0tGd2QSMPGoYCze6" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="1433,630,121,19" Id="H9PzXRp37aRN3WQMzCkT3B">
-                  <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FilterAndSortProperties" />
                   </p:NodeReference>
@@ -12787,8 +12789,6 @@
                   <Pin Id="UXjrgaA2otwP8ajKmqV6ka" Name="Result" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="N8VP0zGPxjGMdNR4JzQ77l" Bounds="1433,566" Alignment="Top" />
-              <ControlPoint Id="Dd2csGboBjaQMwC5KbFbgC" Bounds="1435,664" Alignment="Bottom" />
             </Node>
             <Node Bounds="1018,508,46,26" Id="CoJuesJJgGIO7WpgzMOchL">
               <p:NodeReference LastCategoryFullName="Reactive.Subjects.Subject" LastSymbolSource="VL.Reactive.vl">
@@ -13636,7 +13636,7 @@
           <ControlPoint Id="JAmeoIGnFIjL3nbGARsvAg" Bounds="3002,97" />
           <Link Id="PXiAIgoVtweNjcW5fnn76Z" Ids="GAUsdlDDopIOI35r8onOM5,JAmeoIGnFIjL3nbGARsvAg" IsHidden="true" />
           <Node Bounds="3011,128,111,74" Id="DeVnJJnErC0P8mxVCyQuWG">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13662,7 +13662,7 @@
             </Patch>
           </Node>
           <Node Bounds="3011,323,113,74" Id="ICy8gyPeNBRMUF4whNN8bN">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13688,7 +13688,7 @@
             </Patch>
           </Node>
           <Node Bounds="3011,425,115,74" Id="RHZMszYaejHM6SuiupNzps">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13714,7 +13714,7 @@
             </Patch>
           </Node>
           <Node Bounds="3011,540,114,74" Id="NBYq1plSGurPBicpesVeyF">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13740,7 +13740,7 @@
             </Patch>
           </Node>
           <Node Bounds="3011,229,118,74" Id="JG5Kj7oFHWcPaZKPVRl2yo">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13785,7 +13785,7 @@
           <Link Id="T7az1uDZFslLfqT7Lb34Lk" Ids="LKcUB9gRkfePRiEFM63Lur,A7DWku5ZxrXPn691r2YPg3" />
           <Link Id="Ck88rBAqTK8ONT8D39IEhc" Ids="EthLud2tlaWPmTiG8acgvP,MS7ZoYNWcVaLWbxHP2J8Cp" />
           <Node Bounds="3009,865,126,74" Id="E93bmEc4Gn5OoMACktoLG4">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13811,7 +13811,7 @@
             </Patch>
           </Node>
           <Node Bounds="3008,976,118,74" Id="U5KvDnSV10IPSf0NVbb9YU">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13843,7 +13843,7 @@
           <Link Id="ScZnsnguH5sNOo03N18Wz9" Ids="JJhETWGhVbPL7Wkxt2lmJU,VnmE5hsAPhuNwDwQmVaGbO" IsHidden="true" />
           <Link Id="A6lZIe8sD2CN4n6X2jFD2n" Ids="Nyr1HxGoNDcOtBUN4acozt,JJhETWGhVbPL7Wkxt2lmJU" />
           <Node Bounds="3007,1080,118,74" Id="B2Dd2JHlordMVHLXG32JwP">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13869,7 +13869,7 @@
             </Patch>
           </Node>
           <Node Bounds="3007,1193,151,74" Id="G51nPUWk8zAQabrt3zvHpH">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13908,7 +13908,7 @@
           <Link Id="ArzXUhgoRL0OddOAcIErhu" Ids="NPbfnbweq0XPfFA99JD02y,Ve1f9CsnaPzOD48e3qk6YJ" />
           <Link Id="PAZaXYv7EN1NbQwM1Jc1of" Ids="GYwYV7RcRYjLkxyQOvcQdz,EHRHAkUe3dbNNt2q0IPQF4" />
           <Node Bounds="3009,657,123,74" Id="SBmWlfi4s1HMoP3ah7hhed">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13938,7 +13938,7 @@
           <Link Id="MuYlevEqCdxPQMNW0NDbwn" Ids="OBatNTvu0fVOVKdx6nvnQH,ElSuTPJvkTiLagPY2qz88o" />
           <Link Id="KApFd8kY7bOOFEUM7VqrY2" Ids="A3qfrwz4lUrLF97c8nmlwm,V7wIv6P5ayiQTlTIbPteHp" />
           <Node Bounds="3009,762,123,74" Id="TOAUf770bemM0QohoSEKVC">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -13973,7 +13973,7 @@
           <Link Id="ENzUawoNKKePPizEMSo215" Ids="JVN8tP4gPAmPvS3QYpfjv5,SnqRuDMXI71PDDKFODqyII" />
           <Link Id="U6LVdGi9seYNtLifHc4xWg" Ids="QcrUocHGg6BPx1bCxWiXDL,VxpzNFm8LGMOYFx8IfmNUS" />
           <Node Bounds="3007,1298,122,74" Id="HUDHmTJaK82MbaqCrjAbMh">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterMonitor" />
             </p:NodeReference>
@@ -14018,7 +14018,7 @@
         <Patch Id="MhTqhq96HdoOq8mSYUys0s">
           <Pin Id="Eqfm9aHwHJPQDjkssQN2fK" Name="Input" Kind="InputPin" Bounds="19,8" />
           <Node Bounds="1753,1703" Id="BQLXeg52eQWPa5O4KobbBP">
-            <p:NodeReference LastCategoryFullName="Elementa.Editor" LastSymbolSource="Elementa.Editor.vl">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterEditorServices" />
             </p:NodeReference>

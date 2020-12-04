@@ -3767,18 +3767,23 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Slider (Spectral)" />
               </p:NodeReference>
-              <Pin Id="AcZN60OZr1oMqLQ16Cgpjp" Name="Value" Kind="InputPin" />
-              <Pin Id="TUg1EObeRGSL4Hopd45GsY" Name="Push Input Value To Observable" Kind="InputPin" />
               <Pin Id="Uk7BtHmrGNlQAbDL6h9nU6" Name="Position" Kind="InputPin" />
               <Pin Id="GSIUBnEsXLJLSoK6pzDugE" Name="Size" Kind="InputPin" />
               <Pin Id="NR9aZWb73AQQKuUaemM8Dd" Name="Anchor" Kind="InputPin" />
-              <Pin Id="Robf1LnUNghPAgJaJ6WPsw" Name="Go To Focus" Kind="InputPin" />
-              <Pin Id="QGboA471TcnPKU6GTy1eCt" Name="Enable Interaction" Kind="InputPin" />
               <Pin Id="UsLYX7vkRPvPUf4E42WEnU" Name="Orientation" Kind="InputPin" />
+              <Pin Id="QGboA471TcnPKU6GTy1eCt" Name="Enable Interaction" Kind="InputPin" />
+              <Pin Id="Robf1LnUNghPAgJaJ6WPsw" Name="Go To Focus" Kind="InputPin" />
+              <Pin Id="NpCrJqpv9DDOY1Gxujc1np" Name="Dragging Behaviour" Kind="InputPin" />
+              <Pin Id="RMGnv7o5SmsQE3QWUOC5oq" Name="Default" Kind="InputPin" />
+              <Pin Id="E4A1BtV3po0OvwsBS2zrGA" Name="Min" Kind="InputPin" />
+              <Pin Id="M6th9YuRbLaQALw5bnvcIw" Name="Max" Kind="InputPin" />
+              <Pin Id="AcZN60OZr1oMqLQ16Cgpjp" Name="Value" Kind="InputPin" />
+              <Pin Id="OqMLjCBMfp0MzkZAtPQcLM" Name="Push Input Value To Observable" Kind="InputPin" />
+              <Pin Id="M1VJvHAamdVN7HdeVLywq4" Name="Set Value" Kind="InputPin" />
+              <Pin Id="QGW0WLIeqUSL4zF4q4UUB3" Name="Components" Kind="InputPin" />
               <Pin Id="OyYBnqHSXtmQdgyB9Ja3BP" Name="Output" Kind="StateOutputPin" />
               <Pin Id="Qzjt7alz7TDMyWVHJLTUel" Name="On Interaction" Kind="OutputPin" />
               <Pin Id="BMZb8RZVhjEMKoLFIlnJcL" Name="Value" Kind="OutputPin" />
-              <Pin Id="QGW0WLIeqUSL4zF4q4UUB3" Name="Components" Kind="InputPin" />
             </Node>
             <Node Bounds="316,328,60,43" Id="Qp2qV32bRU9NFuiQp1AX8q">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
@@ -5147,7 +5152,7 @@
                   <Choice Kind="ProcessAppFlag" Name="Hoverable" />
                 </p:NodeReference>
                 <Pin Id="RJ7NaV4ylq9NFilectVVbr" Name="Is Hoverable" Kind="InputPin" />
-                <Pin Id="MneXpCzv4RPO4KLd7fVnPA" Name="Occluded by Foreground Objects" Kind="InputPin" />
+                <Pin Id="Oq0olB2nVr9QA91OOTCIFK" Name="Occluded by Foreground Widgets" Kind="InputPin" />
                 <Pin Id="U6X8sWzlZXPQHgFS2DfWwv" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="Us9T6l9sdIaNFWhjjblY5i" Name="Hovered" Kind="OutputPin" />
               </Node>

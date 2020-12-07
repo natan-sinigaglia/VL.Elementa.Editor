@@ -43,7 +43,7 @@
             <Node Bounds="113,187,98,19" Id="OkrW35hYEyoN3EVYiO4gKe">
               <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
               </p:NodeReference>
               <Pin Id="GNDQb66mjHXOtBSJ0oK3gD" Name="Value" Kind="InputPin" />
               <Pin Id="SDlu1GT8r00OqiigRH0aiU" Name="Force" Kind="InputPin" />
@@ -225,16 +225,16 @@
       </Node>
       <!--
 
-    ************************ VLObjectInspector ************************
+    ************************ VLObjectEditor ************************
 
 -->
-      <Node Name="VLObjectInspector" Bounds="640,1465" Id="O5DZb7B8PQeNRjo7LYpgcN">
+      <Node Name="VLObjectEditor" Bounds="640,1465" Id="O5DZb7B8PQeNRjo7LYpgcN">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="KacdEZTMsJ8OYbD8ePvArF">
@@ -269,7 +269,7 @@
                 <Node Bounds="206,341,98,19" Id="LXF85tOv0FzNJoQ4yqgr6e">
                   <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                    <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
                   </p:NodeReference>
                   <Pin Id="Ax6dDFhAlhFLkD9q0Edhto" Name="Value" Kind="InputPin" />
                   <Pin Id="AXia1PTcKGANpMbvCcMI4G" Name="Force" Kind="InputPin" />
@@ -596,10 +596,10 @@
       </Node>
       <!--
 
-    ************************ AdaptiveInspector ************************
+    ************************ AdaptiveObjectEditor ************************
 
 -->
-      <Node Name="AdaptiveInspector" Bounds="640,543" Id="U2g2VeXWVXoNr1hCUuZyv4">
+      <Node Name="AdaptiveObjectEditor" Bounds="640,543" Id="U2g2VeXWVXoNr1hCUuZyv4">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -678,10 +678,10 @@
                 <Patch Id="QoKjGemBPnGLDSNLrKFGOz" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="VkL8Jwbx7g7L1SgQbMU2VK" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="423,497,346,26" Id="T5D92kEcctQLrXMG0ERdeP">
-                  <p:NodeReference LastCategoryFullName="Main.Block_UI_Inspector.IFooInspector" LastSymbolSource="ObjectInspector.vl">
+                  <p:NodeReference>
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Update" />
-                    <CategoryReference Kind="Category" Name="IInspector" />
+                    <CategoryReference Kind="Category" Name="IObjectEditor" />
                   </p:NodeReference>
                   <Pin Id="In9IMG0lLwmOZysGtcamqj" Name="Input" Kind="InputPin" />
                   <Pin Id="RQWY42KAmLiMpuOD4eGx2S" Name="Value" Kind="InputPin" />
@@ -799,10 +799,10 @@
       </Node>
       <!--
 
-    ************************ IInspector ************************
+    ************************ IObjectEditor ************************
 
 -->
-      <Node Name="IInspector" Bounds="640,462" Id="PaZAOjMyhzXLJQxXE1GBhW">
+      <Node Name="IObjectEditor" Bounds="640,462" Id="PaZAOjMyhzXLJQxXE1GBhW">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="InterfaceDefinition" Name="Interface" />
         </p:NodeReference>
@@ -1318,10 +1318,10 @@
       </Node>
       <!--
 
-    ************************ RegisterInspector ************************
+    ************************ RegisterObjectEditor ************************
 
 -->
-      <Node Name="RegisterInspector" Bounds="630,202,226,203" Id="Jp04Vz4HqGFNt6ITt89X7T">
+      <Node Name="RegisterObjectEditor" Bounds="630,202,226,203" Id="Jp04Vz4HqGFNt6ITt89X7T">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
@@ -1343,7 +1343,7 @@
               <Pin Id="NJzUC6CU4TPNI8Pt98iRV4" Name="Arg" Kind="InputPin" />
               <Pin Id="IqSyGneS3SnPDl0PxTbJBW" Name="Result" Kind="OutputPin">
                 <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="IInspector" />
+                  <Choice Kind="TypeFlag" Name="IObjectEditor" />
                 </p:TypeAnnotation>
               </Pin>
               <ControlPoint Id="Abg6w3wBHtzMQiMUE58ekK" Bounds="804,275" />
@@ -1382,16 +1382,16 @@
       </Node>
       <!--
 
-    ************************ ObjectInspector ************************
+    ************************ ObjectEditor ************************
 
 -->
-      <Node Name="ObjectInspector" Bounds="640,1665" Id="GANIx7VLLiOOV80MTiy1YU">
+      <Node Name="ObjectEditor" Bounds="640,1665" Id="GANIx7VLLiOOV80MTiy1YU">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="RaV11U5Jr16OWs6UEBay1w">
@@ -1517,16 +1517,16 @@
       </Node>
       <!--
 
-    ************************ SpreadVLObjectInspector ************************
+    ************************ SpreadVLObjectEditor ************************
 
 -->
-      <Node Name="SpreadVLObjectInspector" Bounds="640,1515" Id="C9Z4cpab2sbO0tYSQVkDjL">
+      <Node Name="SpreadVLObjectEditor" Bounds="640,1515" Id="C9Z4cpab2sbO0tYSQVkDjL">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="KcGjCcqoxbWPP6Xkq4VFTC">
@@ -1550,7 +1550,7 @@
                 <Node Bounds="156,462,98,19" Id="E4irJzgw3vvOrrvnvEaEfC">
                   <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                    <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
                   </p:NodeReference>
                   <Pin Id="UTCbDvIOgBaLZbizHAPrLm" Name="Value" Kind="InputPin" />
                   <Pin Id="CY6DHgZqytYNGCH58acdvn" Name="Force" Kind="InputPin" />
@@ -2076,16 +2076,16 @@
       </Node>
       <!--
 
-    ************************ SpreadInspector ************************
+    ************************ SpreadEditor ************************
 
 -->
-      <Node Name="SpreadInspector" Bounds="640,1565" Id="Dm1vb0JDeGhOYDX2ZM1ilq">
+      <Node Name="SpreadEditor" Bounds="640,1565" Id="Dm1vb0JDeGhOYDX2ZM1ilq">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="BnctWQHE9dBP3YHFXWghrr">
@@ -2111,7 +2111,7 @@
                 <Node Bounds="630,422,98,19" Id="O5x9SuoTR9cMKWYXB2M73o">
                   <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                    <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
                   </p:NodeReference>
                   <Pin Id="Eh5Y8suyXU8MiD3p69A8Dz" Name="Value" Kind="InputPin" />
                   <Pin Id="H1ac3Nzf0hpOEYWUIBFyy2" Name="Force" Kind="InputPin" />
@@ -2300,16 +2300,16 @@
       </Node>
       <!--
 
-    ************************ FloatInspector ************************
+    ************************ FloatEditor ************************
 
 -->
-      <Node Name="FloatInspector" Bounds="640,893" Id="Jj9cATsoozpOjcYqtR6T1K">
+      <Node Name="FloatEditor" Bounds="640,893" Id="Jj9cATsoozpOjcYqtR6T1K">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="L7iUfnwsspuNMokYXcrcfb">
@@ -2413,16 +2413,16 @@
       </Node>
       <!--
 
-    ************************ ToggleInspector ************************
+    ************************ ToggleEditor ************************
 
 -->
-      <Node Name="ToggleInspector" Bounds="640,761" Id="SWw7528st2cO7udGZ42Cvp">
+      <Node Name="ToggleEditor" Bounds="640,761" Id="SWw7528st2cO7udGZ42Cvp">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="BDPgg5TAPYlMexJaRdmOKk">
@@ -2523,16 +2523,16 @@
       </Node>
       <!--
 
-    ************************ StringInspector ************************
+    ************************ StringEditor ************************
 
 -->
-      <Node Name="StringInspector" Bounds="640,1070" Id="IsFyiBDUd9jLxe6JjcgMk8">
+      <Node Name="StringEditor" Bounds="640,1070" Id="IsFyiBDUd9jLxe6JjcgMk8">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="KeT4Tl5aKFOQIv1T5n2Uyk">
@@ -2632,16 +2632,16 @@
       </Node>
       <!--
 
-    ************************ ColorInspector ************************
+    ************************ ColorEditor ************************
 
 -->
-      <Node Name="ColorInspector" Bounds="640,1114" Id="RW6BffwDnaUPMuDR56gxPF">
+      <Node Name="ColorEditor" Bounds="640,1114" Id="RW6BffwDnaUPMuDR56gxPF">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="O9zh0QsfRoILqaGWYBBmyz">
@@ -2745,16 +2745,16 @@
       </Node>
       <!--
 
-    ************************ IntegerInspector ************************
+    ************************ IntegerEditor ************************
 
 -->
-      <Node Name="IntegerInspector" Bounds="640,805" Id="UMzBAiqIUmlMnOwe0dWMRr">
+      <Node Name="IntegerEditor" Bounds="640,805" Id="UMzBAiqIUmlMnOwe0dWMRr">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="Vax18Jg4JnNLpYHpJFXgU1">
@@ -2858,16 +2858,16 @@
       </Node>
       <!--
 
-    ************************ Vector2DInspector ************************
+    ************************ Vector2DEditor ************************
 
 -->
-      <Node Name="Vector2DInspector" Bounds="640,1158" Id="TMcxYFsLSLNNcmkA6Uzrrb">
+      <Node Name="Vector2DEditor" Bounds="640,1158" Id="TMcxYFsLSLNNcmkA6Uzrrb">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="ICzsksx0snyPUqgyjRAYBt">
@@ -2977,16 +2977,16 @@
       </Node>
       <!--
 
-    ************************ EnumerationInspector ************************
+    ************************ EnumerationEditor ************************
 
 -->
-      <Node Name="EnumerationInspector" Bounds="640,1378" Id="C3XH7RsllUfM7tocChYVu7">
+      <Node Name="EnumerationEditor" Bounds="640,1378" Id="C3XH7RsllUfM7tocChYVu7">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="ISETBDlxeTSNrIlCWDktov">
@@ -3090,16 +3090,16 @@
       </Node>
       <!--
 
-    ************************ Vector3DInspector ************************
+    ************************ Vector3DEditor ************************
 
 -->
-      <Node Name="Vector3DInspector" Bounds="640,1290" Id="T8bqREObRJLMlT4spKblHv">
+      <Node Name="Vector3DEditor" Bounds="640,1290" Id="T8bqREObRJLMlT4spKblHv">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="UnFBmRr0BNvLiPbfEaIApA">
@@ -3210,16 +3210,16 @@
       </Node>
       <!--
 
-    ************************ Vector4DInspector ************************
+    ************************ Vector4DEditor ************************
 
 -->
-      <Node Name="Vector4DInspector" Bounds="640,1334" Id="IjfeGaBE5I9LWaqQJAsMMd">
+      <Node Name="Vector4DEditor" Bounds="640,1334" Id="IjfeGaBE5I9LWaqQJAsMMd">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="DQv5VSHOKnsNI4hQsGQ0L7">
@@ -3530,16 +3530,16 @@
       </Node>
       <!--
 
-    ************************ PressInspector ************************
+    ************************ PressEditor ************************
 
 -->
-      <Node Name="PressInspector" Bounds="640,717" Id="MF87G6AK5H7LkVuXOMgERB">
+      <Node Name="PressEditor" Bounds="640,717" Id="MF87G6AK5H7LkVuXOMgERB">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="BQak3Tire8gPfV1BJhMGNE">
@@ -3639,16 +3639,16 @@
       </Node>
       <!--
 
-    ************************ BangInspector ************************
+    ************************ BangEditor ************************
 
 -->
-      <Node Name="BangInspector" Bounds="640,673" Id="TQGgOL6JLGzQYu4Epfh0Sl">
+      <Node Name="BangEditor" Bounds="640,673" Id="TQGgOL6JLGzQYu4Epfh0Sl">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="HL07VjRO9NsLIjyzxZ3iOe">
@@ -3748,16 +3748,16 @@
       </Node>
       <!--
 
-    ************************ SliderInspector ************************
+    ************************ SliderEditor ************************
 
 -->
-      <Node Name="SliderInspector" Bounds="640,982" Id="JdUH9KdLL2MLf9kFeUOfIU">
+      <Node Name="SliderEditor" Bounds="640,982" Id="JdUH9KdLL2MLf9kFeUOfIU">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="UFgyE3DJNAIMUxYv402S9h">
@@ -3864,16 +3864,16 @@
       </Node>
       <!--
 
-    ************************ RotaryInspector ************************
+    ************************ RotaryEditor ************************
 
 -->
-      <Node Name="RotaryInspector" Bounds="640,1026" Id="EIEIhbt3yCGOVIqax4gqdb">
+      <Node Name="RotaryEditor" Bounds="640,1026" Id="EIEIhbt3yCGOVIqax4gqdb">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="TBzw1MlFubbP55Co81erdI">
@@ -3971,16 +3971,16 @@
       </Node>
       <!--
 
-    ************************ Slider2DInspector ************************
+    ************************ Slider2DEditor ************************
 
 -->
-      <Node Name="Slider2DInspector" Bounds="640,1202" Id="BtSFk3hdSVeLJx8E61HE9h">
+      <Node Name="Slider2DEditor" Bounds="640,1202" Id="BtSFk3hdSVeLJx8E61HE9h">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="GpA2NR4SYkfLFk90lK1r9j">
@@ -4062,16 +4062,16 @@
       </Node>
       <!--
 
-    ************************ IntegerUpDownInspector ************************
+    ************************ IntegerUpDownEditor ************************
 
 -->
-      <Node Name="IntegerUpDownInspector" Bounds="640,849" Id="PDliPwSMkRWQEkKjgO1wV0">
+      <Node Name="IntegerUpDownEditor" Bounds="640,849" Id="PDliPwSMkRWQEkKjgO1wV0">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="SMaLZigithkPmEICVCxE9G">
@@ -4170,16 +4170,16 @@
       </Node>
       <!--
 
-    ************************ RangeInspector ************************
+    ************************ RangeEditor ************************
 
 -->
-      <Node Name="RangeInspector" Bounds="640,1246" Id="Ovpbl5CrUCTM6UEr0eG5MM">
+      <Node Name="RangeEditor" Bounds="640,1246" Id="Ovpbl5CrUCTM6UEr0eG5MM">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="OgdDkHf58W3ORk8aMaOYTf">
@@ -4290,16 +4290,16 @@
       </Node>
       <!--
 
-    ************************ DictionaryInspector ************************
+    ************************ DictionaryEditor ************************
 
 -->
-      <Node Name="DictionaryInspector" Bounds="640,1615" Id="CX5VzeaGVc8Lv8k2twRmPQ">
+      <Node Name="DictionaryEditor" Bounds="640,1615" Id="CX5VzeaGVc8Lv8k2twRmPQ">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="FeOQI8qAGMgQVvTispogLf">
@@ -4325,7 +4325,7 @@
                 <Node Bounds="630,422,98,19" Id="FXt2dXqnyDAOHlEKM64QY9">
                   <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                    <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
                   </p:NodeReference>
                   <Pin Id="CUqyIkmsE8qNny1NmkdBiK" Name="Value" Kind="InputPin" />
                   <Pin Id="JV3Dl0l5G3bPA074q8rObj" Name="Force" Kind="InputPin" />
@@ -4512,7 +4512,7 @@
           </Patch>
         </Patch>
       </Node>
-      <Overlay Id="UsPUSkYTHVyQQRequq0YLf" Name="Inspector" Bounds="577,111,323,1566">
+      <Overlay Id="UsPUSkYTHVyQQRequq0YLf" Name="Editor" Bounds="577,111,323,1566">
         <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
       </Overlay>
       <Canvas Id="OuUY0sXQeqvLfnctLDbA25" Name="GraphViewer" Position="127,472">
@@ -5609,7 +5609,7 @@
                     <Node Bounds="365,568,121,19" Id="RVouAHO3GH2Pd69GuhiT1v">
                       <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                        <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
                       </p:NodeReference>
                       <Pin Id="N5aM9FkTtZ3PtHlgT8mn3Z" Name="Value" Kind="InputPin" />
                       <Pin Id="UAcJpcjlXjkN6oid8rpIlO" Name="Force" Kind="InputPin" DefaultValue="False">
@@ -6062,15 +6062,15 @@
               </Pin>
               <Pin Id="H7k7oTMXh4QMootAKbhOKi" Name="Result" Kind="OutputPin">
                 <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="IInspector" />
+                  <Choice Kind="TypeFlag" Name="IObjectEditor" />
                 </p:TypeAnnotation>
               </Pin>
               <ControlPoint Id="SmyZ01I3VNtLjhiteBnNzF" Bounds="170,2239" />
               <ControlPoint Id="FKYXPsseUu9PIBfYWZtBEj" Bounds="170,2319" />
               <Node Bounds="173,2264,67,26" Id="G5KHRM8tnVAMbqxs73FfYD">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.BangInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="BangInspector" />
+                  <CategoryReference Kind="ClassType" Name="BangEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="QmZie27zXAWM4bQ2Oc5A4H" Name="Output" Kind="StateOutputPin" />
@@ -6142,9 +6142,9 @@
               <ControlPoint Id="QQNxrZONYBMMjYU1BWkZdH" Bounds="470,2239" />
               <ControlPoint Id="FslipAmIW8CPgMXPRwa70Q" Bounds="470,2319" />
               <Node Bounds="470,2262,74,26" Id="DP6XVqRJE5eOfdYbgftqdG">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.ToggleInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="ToggleInspector" />
+                  <CategoryReference Kind="ClassType" Name="ToggleEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="VWkdU91U3koPgxB1QP3BPi" Name="Output" Kind="StateOutputPin" />
@@ -6216,9 +6216,9 @@
               <ControlPoint Id="Po4Q4SHFwGLNqdrUB85ndq" Bounds="770,2239" />
               <ControlPoint Id="UhvgVYOGnLZN07HvrZS2rT" Bounds="770,2319" />
               <Node Bounds="767,2266,105,26" Id="QzU4KTVQkLhPSKxcJxRKUy">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.IntegerUpDownInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="IntegerUpDownInspector" />
+                  <CategoryReference Kind="ClassType" Name="IntegerUpDownEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="QbuzGRobjh7QXiYGhc9fVm" Name="Output" Kind="StateOutputPin" />
@@ -6290,10 +6290,10 @@
               <ControlPoint Id="K09pBy562A3QPX4J8nNIXH" Bounds="1250,2239" />
               <ControlPoint Id="AMVe5FP3yfkOxh2Sb0THmd" Bounds="1250,2319" />
               <Node Bounds="1251,2266,80,26" Id="DggBwCWqxNIMn0K8ufgnFk">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.SliderInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="SliderInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="SliderEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="GPQ1vSrfjpVQGUKDaLHJiE" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -6327,9 +6327,9 @@
               <ControlPoint Id="MPGLDrurLbnMq9NCoTydod" Bounds="1400,2239" />
               <ControlPoint Id="LwfyUdqFdQfLb7xYkOEDrQ" Bounds="1400,2319" />
               <Node Bounds="1399,2266,72,26" Id="CfV2YDq0eRQLrvFzoYjLyF">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.RotaryInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="RotaryInspector" />
+                  <CategoryReference Kind="ClassType" Name="RotaryEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="FvEtB4WRRetPlQS2a23dZ0" Name="Output" Kind="StateOutputPin" />
@@ -6364,10 +6364,10 @@
               <ControlPoint Id="VVgTloAiwouLUJn6IHrLSM" Bounds="1550,2239" />
               <ControlPoint Id="SioSEK1i47eLVI6xieRnE3" Bounds="1550,2319" />
               <Node Bounds="1555,2263,83,26" Id="S5vK80T0i0XOy7jwAiGqTF">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.Vector2DInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="Category" Name="Vector2DInspector" />
+                  <CategoryReference Kind="Category" Name="Vector2DEditor" />
                 </p:NodeReference>
                 <Pin Id="KHXw1RuJ3kCLUL2Pg5xgl4" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -6401,9 +6401,9 @@
               <ControlPoint Id="Pt5jVLA5LnVQTRmwD0Qi6B" Bounds="1700,2239" />
               <ControlPoint Id="UeO7z5pyZkTQDy4OsnZmD6" Bounds="1700,2319" />
               <Node Bounds="1699,2266,80,26" Id="GU87iov5sORQQsEs0MVvv5">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.Slider2DInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="Slider2DInspector" />
+                  <CategoryReference Kind="ClassType" Name="Slider2DEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="SYgwJ0ksAG4N71DgztUYCR" Name="Output" Kind="StateOutputPin" />
@@ -6438,9 +6438,9 @@
               <ControlPoint Id="M5CAGkw1X8JM3Y5TVDy43m" Bounds="1850,2239" />
               <ControlPoint Id="GqOvJ8rvdR9N5Sc2HydJoO" Bounds="1850,2319" />
               <Node Bounds="1848,2264,72,26" Id="TWVYrUFAplbOqmdsSVAU8S">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.RangeInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="RangeInspector" />
+                  <CategoryReference Kind="ClassType" Name="RangeEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="JYjNSVOx5biNkc0U7LPqPU" Name="Output" Kind="StateOutputPin" />
@@ -6475,10 +6475,10 @@
               <ControlPoint Id="OPDq9G2rfFPMJzNJ0kY8Yn" Bounds="2000,2239" />
               <ControlPoint Id="TBiTrlW2GcZLGE9kBXReD5" Bounds="2000,2319" />
               <Node Bounds="2002,2264,83,26" Id="S9RmUeQPSJLNpGIrDMU46J">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.Vector3DInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="Category" Name="Vector3DInspector" />
+                  <CategoryReference Kind="Category" Name="Vector3DEditor" />
                 </p:NodeReference>
                 <Pin Id="CZ9krkcVIodQFnyFVTBVgG" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -6549,9 +6549,9 @@
               <ControlPoint Id="KAEWOhmwwJUNzgT4x0ptRV" Bounds="2300,2239" />
               <ControlPoint Id="K39h3z78d2KQa9olhnAgkt" Bounds="2300,2319" />
               <Node Bounds="2296,2267,69,26" Id="SbNhmrbGMtYLOKvanT8vhC">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.ColorInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="ColorInspector" />
+                  <CategoryReference Kind="ClassType" Name="ColorEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="LmNqsts9nGHLoI3H7US4DF" Name="Output" Kind="StateOutputPin" />
@@ -6623,9 +6623,9 @@
               <ControlPoint Id="EaSJsyTkCIFLRIxPYrw0eD" Bounds="2600,2239" />
               <ControlPoint Id="Ka9T0ldjPvLNSG9FS7rHkz" Bounds="2600,2319" />
               <Node Bounds="2600,2262,95,26" Id="Gdw4xMpnvGEMjd8IBo9hTS">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.EnumerationInspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="EnumerationInspector" />
+                  <CategoryReference Kind="ClassType" Name="EnumerationEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="LTpLyqy4Zb5L52h6pwkpHc" Name="Output" Kind="StateOutputPin" />
@@ -6747,7 +6747,7 @@
                       <Choice Kind="TypeFlag" Name="IVLPropertyInfo" />
                     </TypeReference>
                     <TypeReference>
-                      <Choice Kind="TypeFlag" Name="IInspector" />
+                      <Choice Kind="TypeFlag" Name="IObjectEditor" />
                     </TypeReference>
                   </p:TypeArguments>
                 </TypeReference>
@@ -8502,7 +8502,7 @@
                     <Node Bounds="365,560,129,19" Id="RbCwV5rqC9BPeWx3f2W4UK">
                       <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="ProcessAppFlag" Name="AdaptiveInspector" />
+                        <Choice Kind="ProcessAppFlag" Name="AdaptiveObjectEditor" />
                       </p:NodeReference>
                       <Pin Id="RE9G6AYx75PPBZZ62Orob1" Name="Value" Kind="InputPin" />
                       <Pin Id="RxbgyDZJIPcQHuQKs8rQKb" Name="Force" Kind="InputPin" />
@@ -8766,10 +8766,10 @@
                 <Patch Id="CE7FmBtI5lDOQZoTC22wY4" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="B0HqfFMppQxOr4kgi8Uc9o" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="521,1384,119,26" Id="BPAzyNQjIDmPnDYYtjar96">
-                  <p:NodeReference LastCategoryFullName="Main.Block_UI_Inspector.IFooInspector" LastSymbolSource="ObjectInspector.vl">
+                  <p:NodeReference>
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Update" />
-                    <CategoryReference Kind="Category" Name="IInspector" />
+                    <CategoryReference Kind="Category" Name="IObjectEditor" />
                   </p:NodeReference>
                   <Pin Id="UDfmRcMf1QGP7VaCBDb0nc" Name="Input" Kind="InputPin" />
                   <Pin Id="OiSRyYqDwY2N2k9ILBFb1h" Name="Value" Kind="InputPin" />
@@ -11281,16 +11281,16 @@
       </Node>
       <!--
 
-    ************************ Float64Inspector ************************
+    ************************ Float64Editor ************************
 
 -->
-      <Node Name="Float64Inspector" Bounds="640,938" Id="KOBWIisHarxNRWFPekt1VB">
+      <Node Name="Float64Editor" Bounds="640,938" Id="KOBWIisHarxNRWFPekt1VB">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Main.Block_UI_Inspector" LastSymbolSource="ObjectInspector.vl">
-            <Choice Kind="InterfaceTypeFlag" Name="IInspector" />
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IObjectEditor" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="CdcZIb0fZvTPlxPaMY0Jab">
@@ -11465,7 +11465,7 @@
           <Link Id="BT4Vi30ETTfP82xsP5FAWY" Ids="MowthtRKRt9NVbAI2liZtw,MyDDWMxTdolNfZxf3vEIbw" IsHidden="true" />
           <Node Bounds="1073,1186,107,74" Id="GZmcrtypPEWQO4Az7zOveA">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="EbMqu7iaQCWMLTqzmCZkRd" Name="Input" Kind="InputPin" />
@@ -11480,10 +11480,10 @@
               <ControlPoint Id="AKWTCPsGbuGMo88dVDahDj" Bounds="1077,1194" />
               <ControlPoint Id="Pezr8Um6d60Oq2dlfUGpML" Bounds="1089,1253" />
               <Node Bounds="1087,1210,81,26" Id="PxSAIHV0XEeQMV6IWCYMsm">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.VLObjectInspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="VLObjectInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="VLObjectEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="PYdGwMJEWINP45eM32biV8" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11494,7 +11494,7 @@
           <Link Id="Rdpc1gYdX2GPAJN9vHJ8mW" Ids="PYdGwMJEWINP45eM32biV8,Pezr8Um6d60Oq2dlfUGpML" />
           <Node Bounds="1072,1287,106,74" Id="EaaF1Dtwz5ANQK9Zn1Ra6Y">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="Q6aGY2gZgNkMTVFhnP6k8Y" Name="Input" Kind="InputPin" />
@@ -11509,15 +11509,10 @@
               <ControlPoint Id="I9i8OzvnzGuNuYFV2yrVGs" Bounds="1076,1295" />
               <ControlPoint Id="O4BI7Mo9eIHL1gjifOART1" Bounds="1088,1354" />
               <Node Bounds="1085,1311,81,26" Id="LI5FoSMlEeXPr563pHuhUt">
-                <p:NodeReference>
+                <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.ObjectEditor" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="ObjectInspector" NeedsToBeDirectParent="true" />
-                  <PinReference Kind="OutputPin" Name="Output">
-                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Main" LastSymbolSource="ObjectInspector.vl">
-                      <Choice Kind="TypeFlag" Name="ObjectInspector" />
-                    </p:DataTypeReference>
-                  </PinReference>
+                  <CategoryReference Kind="ClassType" Name="ObjectEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="MPjOREakQwpQC5wOcOrFZY" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11528,7 +11523,7 @@
           <Link Id="SNN54Adw1K4NwJOwLRlI60" Ids="MPjOREakQwpQC5wOcOrFZY,O4BI7Mo9eIHL1gjifOART1" />
           <Node Bounds="1072,1483,133,79" Id="DErsb9BkEyHQGGaE7Xk1Go">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="PYy97YrnHzYLQaeSt2h68y" Name="Input" Kind="InputPin" />
@@ -11548,10 +11543,10 @@
               <ControlPoint Id="H2rtkzDLYH8PQdWrGHeCIA" Bounds="1076,1491" />
               <ControlPoint Id="OmdNECiP2vhLwbp3nwiDwk" Bounds="1089,1555" />
               <Node Bounds="1087,1506,106,26" Id="DXfRseAhZE7MsM79Ef3IH6">
-                <p:NodeReference LastCategoryFullName="Kairos.Inspector.SpreadVLObjectInspector" LastSymbolSource="Kairos.Inspector.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="SpreadVLObjectInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="SpreadVLObjectEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="Ap9y7WBjN2DLjpuLUXzBTs" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11561,7 +11556,7 @@
           <Link Id="N3GDXYghYsNLunHpvBQAcF" Ids="OmdNECiP2vhLwbp3nwiDwk,OnpDGsq65AMLFzQv5CmzUN" IsHidden="true" />
           <Node Bounds="1072,1384,98,75" Id="QX9TDNShIaoOhXPz6HJjdG">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="QubBqi6v7e1LMzdt1Hn7n6" Name="Input" Kind="InputPin" />
@@ -11576,9 +11571,9 @@
               <ControlPoint Id="KLFnY5duVuVLbmyccAhKBK" Bounds="1076,1394" />
               <ControlPoint Id="CTDP4YfN1vHOID2I5Ya3Op" Bounds="1082,1452" />
               <Node Bounds="1084,1407,74,26" Id="CwUckfc3zy4NIucwfbY9zx">
-                <p:NodeReference LastCategoryFullName="Kairos.Inspector.SpreadInspector" LastSymbolSource="Kairos.Inspector.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="SpreadInspector" />
+                  <CategoryReference Kind="ClassType" Name="SpreadEditor" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
                 <Pin Id="BT7TJIia9ykNxCcEpeFUd4" Name="Output" Kind="StateOutputPin" />
@@ -11591,7 +11586,7 @@
           <Link Id="U9a80fFRJh2LxmQKmym80M" Ids="CQsXIev18Z9MG8XHIgrNhw,PYy97YrnHzYLQaeSt2h68y" />
           <Node Bounds="1073,172,100,77" Id="NsfMJRPIoUDOJEqv0XP6X5">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="Djrrt5WlURCOyDtSoLi2j9" Name="Input" Kind="InputPin" />
@@ -11606,10 +11601,10 @@
               <ControlPoint Id="GmaXvleUiUCL3CnTnSVY40" Bounds="1077,183" />
               <ControlPoint Id="UyEGYuCdbaXOl6fQltY4Zr" Bounds="1089,242" />
               <Node Bounds="1087,195,74,26" Id="G1Kz7stBjNRPZtluMoKIxq">
-                <p:NodeReference LastCategoryFullName="Main.BoolInspector" LastSymbolSource="ObjectInspector.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="Category" Name="ToggleInspector" />
+                  <CategoryReference Kind="Category" Name="ToggleEditor" />
                 </p:NodeReference>
                 <Pin Id="M1O33Uol7iANIikOknbzvu" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11617,7 +11612,7 @@
           </Node>
           <Node Bounds="1073,370,94,74" Id="B7xnlwi2U40MZRfhyCBmmd">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="BBgXwrQC7NiQQbZWJEVCr5" Name="Input" Kind="InputPin" />
@@ -11632,10 +11627,10 @@
               <ControlPoint Id="GVsHfDkJIVyO7irUeIQ7l3" Bounds="1077,378" />
               <ControlPoint Id="UmkYqtKIOstMGUBsQA53TZ" Bounds="1089,437" />
               <Node Bounds="1088,394,67,26" Id="QSXe2VAZbHON4wXeh1J6tD">
-                <p:NodeReference LastCategoryFullName="Main.FloatInspector" LastSymbolSource="ObjectInspector.vl">
+                <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.FloatEditor" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="FloatInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="FloatEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="DUticMQHreKQK9tny8E2qj" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11643,7 +11638,7 @@
           </Node>
           <Node Bounds="1073,562,96,74" Id="K7bgbUjyfQOOaSBNZVs0gh">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="C7wNfBpZ1KgOtKZkuiMXoH" Name="Input" Kind="InputPin" />
@@ -11658,10 +11653,10 @@
               <ControlPoint Id="CBg5blBIpAzPJAOw7UeJ3n" Bounds="1077,570" />
               <ControlPoint Id="AH3EYaTbCpzOHNDOghcqAN" Bounds="1089,629" />
               <Node Bounds="1086,588,71,26" Id="M10Vgn4yo2BPPUEwMjsUoe">
-                <p:NodeReference LastCategoryFullName="Main.StringInspector" LastSymbolSource="ObjectInspector.vl">
+                <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.StringEditor" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="StringInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="StringEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="QgJ5hSeSyPKLpHuFQQQFdz" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11669,7 +11664,7 @@
           </Node>
           <Node Bounds="1073,677,97,74" Id="BHDjTk0sMKHNoSYtmExW00">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="B1iPlzyiR8PQBwRJGOaUXj" Name="Input" Kind="InputPin" />
@@ -11684,10 +11679,10 @@
               <ControlPoint Id="G1r30lSUCH1OpZUBcc8kBC" Bounds="1077,685" />
               <ControlPoint Id="NyM3mn33yLCPzi2OCbIx6h" Bounds="1089,744" />
               <Node Bounds="1087,704,71,26" Id="MVMMcoNWL90M4idWduocdw">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.ColorInspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="ColorInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="ColorEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="Aj4yOuwambzMXVf4DIA3Jc" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11709,7 +11704,7 @@
           <Link Id="PKE01nxzetOPCqiGA5iIW8" Ids="MyDDWMxTdolNfZxf3vEIbw,Djrrt5WlURCOyDtSoLi2j9" />
           <Node Bounds="1073,276,102,74" Id="RT3zN0H0XLzPZ2shsSEaLl">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="ForFqZst5I6Ne8tLEh0qTo" Name="Input" Kind="InputPin" />
@@ -11724,10 +11719,10 @@
               <ControlPoint Id="NCsl7R1MkK0PFGKP92I0Gw" Bounds="1077,284" />
               <ControlPoint Id="N5cY8L4cZPBOObBGnOrD1d" Bounds="1089,343" />
               <Node Bounds="1088,300,75,26" Id="KCmpQxIHOm5Pi5j8CgK8a6">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.IntegerInspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.IntegerEditor" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="IntegerInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="IntegerEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="EnEyvGsUQMHLJdb7Pz8kfE" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11740,7 +11735,7 @@
           <Link Id="LpnAWOPKeekPjra6icwaV1" Ids="JujddDh3cdaNfjnQ2ENC6Q,BBgXwrQC7NiQQbZWJEVCr5" />
           <Node Bounds="1073,781,109,74" Id="A1tmsV151neQJwn279MSyU">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="BYH1cEGX4gENTIMdcOiW0w" Name="Input" Kind="InputPin" />
@@ -11755,10 +11750,10 @@
               <ControlPoint Id="Q5NUl2oCAWALUJQ8tJ5ZX4" Bounds="1077,789" />
               <ControlPoint Id="PB9nkEUUwYZQGCARX5JHYS" Bounds="1089,848" />
               <Node Bounds="1087,808,83,26" Id="VLapV5PLRogNk76OSVcCU0">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.Vector2Inspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="Category" Name="Vector2DInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="Category" Name="Vector2DEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="US2tff9i4V1Pix6c94FM5f" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11770,7 +11765,7 @@
           <Link Id="NfSXINQdnXjOd6RwTcj3X2" Ids="FwA4tdzL0MaNteVkOOmr5m,BYH1cEGX4gENTIMdcOiW0w" />
           <Node Bounds="1072,1081,121,74" Id="Fxf6Qd3SGMDPHDxeGGR31y">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="Fql4YE26k0VPa5v2wg6s2F" Name="Input" Kind="InputPin" />
@@ -11785,10 +11780,10 @@
               <ControlPoint Id="JGeXgw36TxALIzxzVtJaKL" Bounds="1076,1089" />
               <ControlPoint Id="HLlDilUAGniMkQJVGkg8ZA" Bounds="1088,1148" />
               <Node Bounds="1086,1108,95,26" Id="QrJfFv1hDljPfspuh4LRZ4">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.EnumerationInspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="EnumerationInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="EnumerationEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="VV2m0zTQwmKNSvy4JvyC1u" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11800,7 +11795,7 @@
           <Link Id="MOqbH4Esi8bOzLMbob1XwW" Ids="J2hJI2K1KmyLBQ0nvJ4DYO,QubBqi6v7e1LMzdt1Hn7n6" />
           <Node Bounds="1072,878,109,74" Id="NcWqZTu1qrkNoHAgwkM9K9">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="UeBgrAhzg33PLl4ZDlwY4Y" Name="Input" Kind="InputPin" />
@@ -11815,10 +11810,10 @@
               <ControlPoint Id="ShfMXdfZAYvNiCX1aIQe5a" Bounds="1076,886" />
               <ControlPoint Id="N3w0zoQbxjoNbITuj53Fj0" Bounds="1088,945" />
               <Node Bounds="1086,905,83,26" Id="KVLM5J6VQD7LT34epXjV1b">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.Vector3Inspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="Category" Name="Vector3DInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="Category" Name="Vector3DEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="PW1C5OCMu7KLWNBqRD7UIE" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11830,7 +11825,7 @@
           <Link Id="HYlZv9CmUaePmYQaIKWN6E" Ids="TaJj0yRJZ1MMXHU4BumKbS,UeBgrAhzg33PLl4ZDlwY4Y" />
           <Node Bounds="1078,979,109,74" Id="EnB1mtelERHLbvJheSm6ZE">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="D3ByEuCWLKCM31AXG3NDOm" Name="Input" Kind="InputPin" />
@@ -11845,10 +11840,10 @@
               <ControlPoint Id="VDPoqyoNtmMP8qRc00lPaT" Bounds="1082,987" />
               <ControlPoint Id="HpioSInsFK0P1HWrXD6Jzv" Bounds="1094,1046" />
               <Node Bounds="1092,1006,83,26" Id="FD20E6ga7WRLGiHGg74SyZ">
-                <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector.Vector4Inspector" LastSymbolSource="Kairos.Editor.vl">
+                <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.Vector4DEditor" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="Category" Name="Vector4DInspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="Vector4DEditor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="DEOCBXw85YTOGHnTwR0iIs" Name="Output" Kind="StateOutputPin" />
               </Node>
@@ -11864,7 +11859,7 @@
           <Link Id="FKmSMiHS5LZNUrQsDGQV1q" Ids="GJOBV5cu7iuMGYV9MQG5V6,Q6aGY2gZgNkMTVFhnP6k8Y" />
           <Node Bounds="1073,465,102,74" Id="I0VJb5VprWYORTa8pAwSKO">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
-              <Choice Kind="OperationCallFlag" Name="RegisterInspector" />
+              <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
             </p:NodeReference>
             <Pin Id="F2RVYx1VbYKOUeD2hfGdpx" Name="Input" Kind="InputPin" />
@@ -11879,10 +11874,10 @@
               <ControlPoint Id="HQpUrRASGZZO7HxrPPlyY2" Bounds="1077,473" />
               <ControlPoint Id="NsMAUU8119PP1UnrKhQZac" Bounds="1089,532" />
               <Node Bounds="1087,492,76,26" Id="GsBxUBS6CW0PpdXlpg3DNo">
-                <p:NodeReference LastCategoryFullName="Elementa.Editor.Float64Inspector" LastSymbolSource="Elementa.Editor.vl">
+                <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
-                  <CategoryReference Kind="ClassType" Name="Float64Inspector" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="ClassType" Name="Float64Editor" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="HJLj5CQNCEpLAIoa2b5wX8" Name="Output" Kind="StateOutputPin" />
               </Node>

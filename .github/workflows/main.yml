@@ -19,7 +19,7 @@ jobs:
       uses: nuget/setup-nuget@v1
 
     - name: Publish VL Nuget
-        uses: vvvv/PublishVLNuget@1.0.29
-        with:
-          nuspec: deployment\VL.Elementa.Editor.nuspec
-          nuget-key: ${{ secrets.NUGET_KEY }}
+      uses: vvvv/PublishVLNuget@1.0.29
+      with:
+        nuspec: deployment\VL.Elementa.Editor.nuspec
+        nuget-key: ${{ secrets.NUGET_KEY }}

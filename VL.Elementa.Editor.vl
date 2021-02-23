@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="PteB4SGIz2HLEHnWfsTNYi" LanguageVersion="2021.4.0.2" Version="0.128">
-  <NugetDependency Id="DWHBR0yKpKpLovCZjpRCvi" Location="VL.CoreLib" Version="2021.4.0-0002-g214fb4a471" />
+<Document xmlns:p="property" Id="PteB4SGIz2HLEHnWfsTNYi" LanguageVersion="2021.3.0.70" Version="0.128">
+  <NugetDependency Id="DWHBR0yKpKpLovCZjpRCvi" Location="VL.CoreLib" Version="2021.3.0" />
   <Patch Id="JuVa7E7lhYwLnM2ef56WNK">
     <Canvas Id="CJIv5mf1hOYM9876oFNSeL" DefaultCategory="VL.Elementa.Editor" CanvasType="FullCategory">
       <!--
@@ -8444,7 +8444,6 @@
                 </Node>
               </Patch>
               <Pin Id="C2NN6IKQDdOLRWpUoGmORh" Name="Force New Instance" Kind="InputPin" />
-              <Pin Id="AWAv29FCcmBPD1zFpjyMwO" Name="On Stop" Kind="InputPin" />
               <Pin Id="GHvEhoJexfnP9EBC9htmza" Name="Singleton" Kind="OutputPin" />
             </Node>
             <Link Id="QsbmMIx9nSgNcLH8Z9Vve6" Ids="FW2IgwQWu2vO1hosh9A270,RPJdVIKv7vMQI50Vk3SYEu" IsHidden="true" />
@@ -12462,9 +12461,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MQwKhR2gxIMOku1hsQwRSV" Location="VL.Skia" Version="2021.4.0-0002-g214fb4a471" />
+  <NugetDependency Id="MQwKhR2gxIMOku1hsQwRSV" Location="VL.Skia" Version="2021.3.0" />
   <PlatformDependency Id="Vdt81mJMS3FOmI4sp5Gb3M" Location="System.Windows.Forms" />
   <PlatformDependency Id="PLkUQ5NPKcbOSJ9EPefhIs" Location="mscorlib" />
-  <DocumentDependency Id="GFaaCT5RbblNzZTG7KnNbO" Location="../VL.Elementa/VL.Elementa.vl" IsForward="true" />
-  <PlatformDependency Id="MzPI02EUkP0MkdKp2nRYg5" Location="../VL.Elementa/src/Elementa/bin/Debug/netstandard2.0/Elementa.dll" />
+  <NugetDependency Id="OQwQSje6wmlL15aObq3K8y" Location="VL.Elementa" Version="0.0.0.0" />
 </Document>

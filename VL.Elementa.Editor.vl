@@ -230,7 +230,7 @@
     ************************ VLObjectEditor ************************
 
 -->
-      <Node Name="VLObjectEditor" Bounds="640,1465" Id="O5DZb7B8PQeNRjo7LYpgcN">
+      <Node Name="VLObjectEditor" Bounds="640,1570" Id="O5DZb7B8PQeNRjo7LYpgcN">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -1477,7 +1477,7 @@
     ************************ ObjectEditor ************************
 
 -->
-      <Node Name="ObjectEditor" Bounds="640,1665" Id="GANIx7VLLiOOV80MTiy1YU">
+      <Node Name="ObjectEditor" Bounds="640,1770" Id="GANIx7VLLiOOV80MTiy1YU">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -1642,7 +1642,7 @@
     ************************ SpreadVLObjectEditor ************************
 
 -->
-      <Node Name="SpreadVLObjectEditor" Bounds="640,1515" Id="C9Z4cpab2sbO0tYSQVkDjL">
+      <Node Name="SpreadVLObjectEditor" Bounds="640,1620" Id="C9Z4cpab2sbO0tYSQVkDjL">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -2211,7 +2211,7 @@
     ************************ SpreadEditor ************************
 
 -->
-      <Node Name="SpreadEditor" Bounds="640,1565" Id="Dm1vb0JDeGhOYDX2ZM1ilq">
+      <Node Name="SpreadEditor" Bounds="640,1670" Id="Dm1vb0JDeGhOYDX2ZM1ilq">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -3710,7 +3710,7 @@
     ************************ AdaptivePropertyInspector ************************
 
 -->
-      <Node Name="AdaptivePropertyInspector" Bounds="1505,539" Id="Q3OPSl4II72QBzNGcriDNI">
+      <Node Name="AdaptivePropertyInspector" Bounds="1484,539" Id="Q3OPSl4II72QBzNGcriDNI">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -4674,7 +4674,7 @@
     ************************ DictionaryEditor ************************
 
 -->
-      <Node Name="DictionaryEditor" Bounds="640,1615" Id="CX5VzeaGVc8Lv8k2twRmPQ">
+      <Node Name="DictionaryEditor" Bounds="640,1720" Id="CX5VzeaGVc8Lv8k2twRmPQ">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -4893,7 +4893,7 @@
           </Patch>
         </Patch>
       </Node>
-      <Overlay Id="UsPUSkYTHVyQQRequq0YLf" Name="Editor" Bounds="577,111,323,1566">
+      <Overlay Id="UsPUSkYTHVyQQRequq0YLf" Name="Editor" Bounds="577,111,323,1684">
         <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
       </Overlay>
       <Canvas Id="OuUY0sXQeqvLfnctLDbA25" Name="GraphViewer" Position="127,472">
@@ -9748,7 +9748,7 @@
     ************************ IPropertyInspector ************************
 
 -->
-      <Node Name="IPropertyInspector" Bounds="1510,399" Id="ApmO1AHzurQPR3CajG2LSb">
+      <Node Name="IPropertyInspector" Bounds="1484,399" Id="ApmO1AHzurQPR3CajG2LSb">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="InterfaceDefinition" Name="Interface" />
         </p:NodeReference>
@@ -9890,7 +9890,7 @@
     ************************ VLObjectPropertyInspector ************************
 
 -->
-      <Node Name="VLObjectPropertyInspector" Bounds="1519,597" Id="L0YE5H0l093O8o8WntTjlG">
+      <Node Name="VLObjectPropertyInspector" Bounds="1484,597" Id="L0YE5H0l093O8o8WntTjlG">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -10303,7 +10303,7 @@
     ************************ SpreadPropertyInspector ************************
 
 -->
-      <Node Name="SpreadPropertyInspector" Bounds="1521,643" Id="E4n2WfYSotuO2CS8G2s01E">
+      <Node Name="SpreadPropertyInspector" Bounds="1484,643" Id="E4n2WfYSotuO2CS8G2s01E">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -10540,7 +10540,7 @@
     ************************ ObjectPropertyInspector ************************
 
 -->
-      <Node Name="ObjectPropertyInspector" Bounds="1519,685" Id="ODpGpcnbcCFLgWLSAxjS2f">
+      <Node Name="ObjectPropertyInspector" Bounds="1484,685" Id="ODpGpcnbcCFLgWLSAxjS2f">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -11867,7 +11867,7 @@
     ************************ RegisterInspectorServices ************************
 
 -->
-      <Node Name="RegisterInspectorServices" Bounds="963,128,297,1480" Id="OroE9biHtPrMVco0AjN0T6">
+      <Node Name="RegisterInspectorServices" Bounds="963,128,254,1637" Id="OroE9biHtPrMVco0AjN0T6">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
@@ -11937,7 +11937,7 @@
           <Link Id="B3f2DhPV47zOFRvKp7qxZT" Ids="RafedwHr5IcMsMgQbes9N1,I9i8OzvnzGuNuYFV2yrVGs" IsHidden="true" />
           <Link Id="M8LWjkvm5J9MAp6pA2nPnQ" Ids="O4BI7Mo9eIHL1gjifOART1,M8b6CuNuy3LQGjlSyCbrRB" IsHidden="true" />
           <Link Id="SNN54Adw1K4NwJOwLRlI60" Ids="MPjOREakQwpQC5wOcOrFZY,O4BI7Mo9eIHL1gjifOART1" />
-          <Node Bounds="1115,1482,133,79" Id="DErsb9BkEyHQGGaE7Xk1Go">
+          <Node Bounds="1072,1631,133,79" Id="DErsb9BkEyHQGGaE7Xk1Go">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -11956,9 +11956,9 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="OnpDGsq65AMLFzQv5CmzUN" Name="Result" Kind="OutputPin" />
-              <ControlPoint Id="H2rtkzDLYH8PQdWrGHeCIA" Bounds="1119,1490" />
-              <ControlPoint Id="OmdNECiP2vhLwbp3nwiDwk" Bounds="1132,1554" />
-              <Node Bounds="1130,1505,106,26" Id="DXfRseAhZE7MsM79Ef3IH6">
+              <ControlPoint Id="H2rtkzDLYH8PQdWrGHeCIA" Bounds="1076,1639" />
+              <ControlPoint Id="OmdNECiP2vhLwbp3nwiDwk" Bounds="1089,1703" />
+              <Node Bounds="1087,1654,106,26" Id="DXfRseAhZE7MsM79Ef3IH6">
                 <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
@@ -11970,7 +11970,7 @@
           </Node>
           <Link Id="OUkDVUn1HEzOSg7RWAfYvg" Ids="CdhHoqOI8alQQCLBs1azF8,H2rtkzDLYH8PQdWrGHeCIA" IsHidden="true" />
           <Link Id="N3GDXYghYsNLunHpvBQAcF" Ids="OmdNECiP2vhLwbp3nwiDwk,OnpDGsq65AMLFzQv5CmzUN" IsHidden="true" />
-          <Node Bounds="1115,1383,98,75" Id="QX9TDNShIaoOhXPz6HJjdG">
+          <Node Bounds="1072,1530,98,75" Id="QX9TDNShIaoOhXPz6HJjdG">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -11984,9 +11984,9 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="OJeyGA6kCqPOtNIRc6BerC" Name="Result" Kind="OutputPin" />
-              <ControlPoint Id="KLFnY5duVuVLbmyccAhKBK" Bounds="1119,1393" />
-              <ControlPoint Id="CTDP4YfN1vHOID2I5Ya3Op" Bounds="1125,1451" />
-              <Node Bounds="1127,1406,74,26" Id="CwUckfc3zy4NIucwfbY9zx">
+              <ControlPoint Id="KLFnY5duVuVLbmyccAhKBK" Bounds="1076,1540" />
+              <ControlPoint Id="CTDP4YfN1vHOID2I5Ya3Op" Bounds="1082,1598" />
+              <Node Bounds="1084,1553,74,26" Id="CwUckfc3zy4NIucwfbY9zx">
                 <p:NodeReference>
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="SpreadEditor" />
@@ -12238,7 +12238,7 @@
           <Link Id="OMx6By2W90RO1VMOzzfGz2" Ids="N3w0zoQbxjoNbITuj53Fj0,BYr9uBNi44xL45I1qj4wSI" IsHidden="true" />
           <Link Id="IGCzAzAtI7oNTUiBvgKlry" Ids="PW1C5OCMu7KLWNBqRD7UIE,N3w0zoQbxjoNbITuj53Fj0" />
           <Link Id="HYlZv9CmUaePmYQaIKWN6E" Ids="TaJj0yRJZ1MMXHU4BumKbS,UeBgrAhzg33PLl4ZDlwY4Y" />
-          <Node Bounds="1078,979,109,74" Id="EnB1mtelERHLbvJheSm6ZE">
+          <Node Bounds="1072,979,109,74" Id="EnB1mtelERHLbvJheSm6ZE">
             <p:NodeReference LastCategoryFullName="VL.Elementa.Editor" LastSymbolSource="VL.Elementa.Editor.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterObjectEditor" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -12252,9 +12252,9 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="OrVa87xhqMVOB4IaQGj4Qg" Name="Result" Kind="OutputPin" />
-              <ControlPoint Id="VDPoqyoNtmMP8qRc00lPaT" Bounds="1082,987" />
-              <ControlPoint Id="HpioSInsFK0P1HWrXD6Jzv" Bounds="1094,1046" />
-              <Node Bounds="1092,1006,83,26" Id="FD20E6ga7WRLGiHGg74SyZ">
+              <ControlPoint Id="VDPoqyoNtmMP8qRc00lPaT" Bounds="1076,987" />
+              <ControlPoint Id="HpioSInsFK0P1HWrXD6Jzv" Bounds="1088,1046" />
+              <Node Bounds="1086,1006,83,26" Id="FD20E6ga7WRLGiHGg74SyZ">
                 <p:NodeReference LastCategoryFullName="VL.Elementa.Editor.Vector4DEditor" LastSymbolSource="VL.Elementa.Editor.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
@@ -12267,7 +12267,7 @@
           <Link Id="HOj7qNOnnCrM0x459XS7CM" Ids="F7YtziclWaJMT88NsdWNIO,VDPoqyoNtmMP8qRc00lPaT" IsHidden="true" />
           <Link Id="PQUCReqCXLuNCELd7YtBeI" Ids="HpioSInsFK0P1HWrXD6Jzv,OrVa87xhqMVOB4IaQGj4Qg" IsHidden="true" />
           <Link Id="FGsZDncUf7GN6k0ODuLEYS" Ids="DEOCBXw85YTOGHnTwR0iIs,HpioSInsFK0P1HWrXD6Jzv" />
-          <ControlPoint Id="CmdEzc0NDRKLgcIGjWv35j" Bounds="1069,1591" />
+          <ControlPoint Id="CmdEzc0NDRKLgcIGjWv35j" Bounds="1074,1748" />
           <Pin Id="NLT1zagh5KCNXQhTX7Vjga" Name="Output" Kind="OutputPin" Bounds="1850,2241" />
           <Link Id="QbxVwVAZGEbLgSMJsfMz5d" Ids="CmdEzc0NDRKLgcIGjWv35j,NLT1zagh5KCNXQhTX7Vjga" IsHidden="true" />
           <Link Id="AtqdxQfU1BqMfe0Aku3B9S" Ids="Ap9y7WBjN2DLjpuLUXzBTs,OmdNECiP2vhLwbp3nwiDwk" />
@@ -12306,8 +12306,8 @@
           <Link Id="LVkTmK5kvzBMe6D3hGCULB" Ids="AJQGJgxKlTVN36mnUQfjbw,EbMqu7iaQCWMLTqzmCZkRd" />
           <Link Id="FHuvL74o6VjLUXqQUfobgM" Ids="VgnJ3EozDz1QD4CWJJrkiN,F2RVYx1VbYKOUeD2hfGdpx" />
           <Link Id="JFFpM4tcvVGOFMafuzToot" Ids="GOPcpjgf9KGOopvFvNRZFk,C7wNfBpZ1KgOtKZkuiMXoH" />
-          <Link Id="UVxCpwKuytsOBzwTMIk2rk" Ids="J2hJI2K1KmyLBQ0nvJ4DYO,QubBqi6v7e1LMzdt1Hn7n6" />
           <Link Id="AmU2RnxrkGvPsTrpP6OnOn" Ids="AreBUNd5OhlPPtCXBbtyde,CmdEzc0NDRKLgcIGjWv35j" />
+          <Link Id="OaAeSKTxREoPTvhcjUhUgJ" Ids="J2hJI2K1KmyLBQ0nvJ4DYO,QubBqi6v7e1LMzdt1Hn7n6" />
         </Patch>
       </Node>
       <!--
